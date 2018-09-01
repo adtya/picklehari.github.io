@@ -1,51 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hey!,I am Hari</title>
-    <link>https://picklehari.github.io/</link>
-    <description>Recent content on Hey!,I am Hari</description>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jun 2018 10:06:49 +0530</lastBuildDate>
     
-	<atom:link href="https://picklehari.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Big data: Tool for empowering people</title>
-      <link>https://picklehari.github.io/posts/big-data-and-people/</link>
-      <pubDate>Tue, 19 Jun 2018 10:06:49 +0530</pubDate>
-      
-      <guid>https://picklehari.github.io/posts/big-data-and-people/</guid>
-      <description>Living in a data prosperous society, I wonder if the data revolution is the 21st-century renaissance. Big data could be considered analogous to the printing press of the early 15th century. Organisations such as Datakind, has made crash models for streets in New York and New Orleans helping governments redesign roads and prevent accidents. Open maps have made University students in Tandale (A district in Tanzania) to mark key local resources and services and thus in turn help organizations serve the citizens better.</description>
-    </item>
-    
-    <item>
-      <title>Exploring the social multiverse</title>
-      <link>https://picklehari.github.io/posts/exploring-the-social-multiverse/</link>
-      <pubDate>Sun, 17 Jun 2018 10:06:49 +0530</pubDate>
-      
-      <guid>https://picklehari.github.io/posts/exploring-the-social-multiverse/</guid>
-      <description>Over the past 20 years of my existence, I have tended to realize over and over that there tends to be another undiscovered social universe beyond what we live in, and the key to visit and unlock these mystery universes is to interact with other beings, human or nonhuman. The popular science communicator Bill Nye said: “Every person you meet, knows something you don’t”. I believe this philosophy can be applied to far beyond human beings.</description>
-    </item>
-    
-    <item>
-      <title>Why I believe Cutting edge isn&#39;t always revolutionising</title>
-      <link>https://picklehari.github.io/posts/why-big-data/</link>
-      <pubDate>Wed, 11 Apr 2018 10:06:49 +0530</pubDate>
-      
-      <guid>https://picklehari.github.io/posts/why-big-data/</guid>
-      <description>Being born in a time when Internet and computer technology was miracles in the eyes of the common folk and at a very rural area ,I have seen how this &amp;ldquo;magic&amp;rdquo; have rapidly changed lives and perceptions of even the poorer sections of society. Growing up admist all the middle class family drama I was exposed to the wonders of Internet and computers from my very childhood that I almost took it for granted.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://picklehari.github.io/about/</link>
-      <pubDate>Tue, 13 Feb 2018 13:42:49 -0500</pubDate>
-      
-      <guid>https://picklehari.github.io/about/</guid>
-      <description>“A village boy with an curious mind” well, that is how I see myself. Being a frequent traveller and having interacted with people from diffrent walks of life, I see how Big data and the Internet in general have influence on even the common folks. Being both a R developer and a data science passionate soul, I intend to become a part of the bigger picture that we all are trying to dicipher with time.</description>
-    </item>
     
   </channel>
 </rss>
