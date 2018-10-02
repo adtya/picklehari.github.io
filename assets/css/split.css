@@ -8,19 +8,87 @@ Description: Split is a centrally-divided layout for a professional online prese
 /* -- CSS Reset -- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 @import url("https://fonts.googleapis.com/css?family=Lora");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -29,8 +97,17 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -38,16 +115,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -79,7 +160,7 @@ img.aligncenter {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-style: none;
 }
 
@@ -108,11 +189,11 @@ a:hover {
   }
 }
 html {
-  background-color: #061C30;
+  background-color: #061c30;
 }
 
 body.page-template-page-fullsingle-split {
-  background-color: #061C30;
+  background-color: #061c30;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 21px;
@@ -194,7 +275,7 @@ body.page-template-page-fullsingle-split p {
   color: #47bec7;
 }
 .split-intro .tagline {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 .split-bio {
@@ -222,9 +303,9 @@ body.page-template-page-fullsingle-split p {
   border-bottom: 1px dotted #848d96;
 }
 .split-bio a:hover {
-  color: #CA486d;
+  color: #ca486d;
   transition-duration: 0.1s;
-  border-bottom: 1px dotted #CA486d;
+  border-bottom: 1px dotted #ca486d;
 }
 .split-bio em,
 .split-bio i {
@@ -240,55 +321,73 @@ body.page-template-page-fullsingle-split p {
   font-size: 80%;
   line-height: inherit;
 }
-.split-bio h1, .split-bio .h1,
-.split-bio h2, .split-bio .h2,
-.split-bio h3, .split-bio .h3,
-.split-bio h4, .split-bio .h4,
-.split-bio h5, .split-bio .h5,
-.split-bio h6, .split-bio .h6 {
+.split-bio h1,
+.split-bio .h1,
+.split-bio h2,
+.split-bio .h2,
+.split-bio h3,
+.split-bio .h3,
+.split-bio h4,
+.split-bio .h4,
+.split-bio h5,
+.split-bio .h5,
+.split-bio h6,
+.split-bio .h6 {
   font-style: normal;
   font-weight: normal;
   color: inherit;
 }
-.split-bio h1 small, .split-bio .h1 small,
-.split-bio h2 small, .split-bio .h2 small,
-.split-bio h3 small, .split-bio .h3 small,
-.split-bio h4 small, .split-bio .h4 small,
-.split-bio h5 small, .split-bio .h5 small,
-.split-bio h6 small, .split-bio .h6 small {
+.split-bio h1 small,
+.split-bio .h1 small,
+.split-bio h2 small,
+.split-bio .h2 small,
+.split-bio h3 small,
+.split-bio .h3 small,
+.split-bio h4 small,
+.split-bio .h4 small,
+.split-bio h5 small,
+.split-bio .h5 small,
+.split-bio h6 small,
+.split-bio .h6 small {
   line-height: 0;
 }
-.split-bio h1, .split-bio .h1 {
+.split-bio h1,
+.split-bio .h1 {
   font-size: 1.5em;
   line-height: inherit;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.split-bio h2, .split-bio .h2 {
+.split-bio h2,
+.split-bio .h2 {
   font-size: 1.25em;
   line-height: inherit;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.split-bio h3, .split-bio .h3 {
+.split-bio h3,
+.split-bio .h3 {
   font-size: 1.1875em;
   line-height: inherit;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.split-bio h4, .split-bio .h4 {
+.split-bio h4,
+.split-bio .h4 {
   font-size: 1.125em;
   line-height: inherit;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.split-bio h5, .split-bio .h5 {
+.split-bio h5,
+.split-bio .h5 {
   font-size: 1.0625em;
   line-height: inherit;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.split-bio h6, .split-bio .h6 {
+.split-bio h6,
+.split-bio .h6 {
   font-size: 1em;
   line-height: inherit;
   margin-top: 0;
@@ -312,7 +411,10 @@ body.page-template-page-fullsingle-split p {
   margin-left: 2.25em;
   list-style-type: decimal;
 }
-.split-bio ul ul, .split-bio ol ul, .split-bio ul ol, .split-bio ol ol {
+.split-bio ul ul,
+.split-bio ol ul,
+.split-bio ul ol,
+.split-bio ol ol {
   margin-left: 1.25em;
   margin-bottom: 0;
 }
@@ -355,7 +457,7 @@ body.page-template-page-fullsingle-split p {
   transition-duration: 0.5s;
 }
 .split-lists .split-list ul li a:hover {
-  color: #CA486d;
+  color: #ca486d;
   transition-duration: 0.1s;
 }
 
